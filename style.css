@@ -57,6 +57,10 @@ max-width: 450px;
     line-height: 1.2;
 }
 .line{
+    position:relative;
+    top:-30px;
+    left: auto;
+    right: auto;
     height: 6px;
     background-color: black;
     width:70px;
@@ -78,7 +82,7 @@ max-width: 450px;
     z-index:10;
     cursor: pointer;
 }
-.links{
+.link{
     float: left;
     color:white;
     padding-top: 5px;
@@ -88,6 +92,21 @@ max-width: 450px;
     font-family:'Yusei Magic', sans-serif; 
     font-size:20px;
 }
-.links:hover{
+.link:hover{
     background-color: purple;
+}
+html{
+scroll-behavior: smooth;
+}
+.articles:hover{
+    color:purple;
+}
+a{
+    text-decoration:none;
+}
+p{
+    text-align:left;
+}
+#contact,#work,#writings,#video,#bio{
+    background-image: url("https://i.pinimg.com/originals/bf/3d/5a/bf3d5ad62e79d8e1071e7612ca020a39.jpg");
 }
